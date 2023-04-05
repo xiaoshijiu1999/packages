@@ -43,7 +43,8 @@ public class FpsRangeFeature extends CameraFeature<Range<Integer>> {
 
           if (upper >= 10) {
             if (currentSetting == null || upper > currentSetting.getUpper()) {
-              currentSetting = range;
+              //currentSetting = range;
+              currentSetting = MAX_PIXEL4A_RANGE;
             }
           }
         }
